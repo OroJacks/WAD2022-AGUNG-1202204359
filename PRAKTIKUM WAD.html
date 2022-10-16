@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        a:hover{
+            color:aquamarine
+        }
+    </style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <img scr="http://bit.ly/LogoEAD2020" img>
+      <a class="navbar-brand" href="">Foto</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#Tentang">Tentang Kami</a></li>
+      <li><a hover href="#Lokasi">Lokasi Kami</a></li>
+      <li><a href="#JM">Jenis Mobil</a></li>
+      <li><a href="#Reservasi">Daftar Reservasi</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+</div>
+<h1 align="center">Reservasi Kendaraan EAD</h1>
+<p align="center">Reservasi kendaraan EAD bisa dilihat vidio dibawah</p>
+<div align="center">
+<iframe align="center" width="500" height="300" src="http://bit.ly/VideoEAD2020" title="VideoEAD2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrpyted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe></div>
+<section align="center" style="background-color:#abd7f7;">
+    <h2 id="Tentang">Tentang Kami</h2>
+    <table align="center">
+      <tr>
+        <td width="350px" align="center"><p class="justify">
+          EAD merupakan layanan penyedia sewa mobil khususnya daerah kampus Telkom University yaitu bojong soang.
+          Prosedur penyewaan juga tidak ribet.
+          Jaminan hanya KTM.</p></td>
+        <td width="100px"></td>
+        <td width="350px" align="center"><p class="justify">
+          Mobil yang disewakan Lambo, BMW, Supra.
+          Banyak promo yang ada di tempat sewa kami.
+          Ayo datang ke tempat sewa kami.</p></td>
+      </tr>
+    </table>
+  </section>
+  <section id="Lokasi" class="lokasi">
+    <center>
+    <div class="container">
+        <h1 class="text-center"><br><br>Lokasi Kami<br></h1>
+        <p><br></p>
+        <div class="mapouter"><div class="mapouter"><div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.307499347788!2d107.62949135059323!3d-6.973001670191885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9adf177bf8d%3A0x437398556f9fa03!2sTelkom%20University!5e0!3m2!1sen!2sid!4v1665926235181!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p><br><br><br><br><br></p>
+    </div>
+  </center>
+
+  <section align="center" style="background-color:#d8e8f4;">
+    <h2 id="JM">Jenis Mobil</h2>
+    <table align="center">
+      <tr>
+        <td width="350px" align="center"><img src="https://inakoran.com/ina/userfiles/images/TOYOTA%20RUSH%20MOBIL.png" width="200" height="100"><p class="justify">
+         
+        Toyota Rush
+            Mulai dari Rp.2.000.000
+        <ul align="center">
+            <li align="left">7 Orang</li>
+            <li align="left">150Km/H</li></ul></p></td>
+        <td width="100px"></td>
+        <td width="350px" align="center"><img src="https://www.honda-indonesia.com/uploads/images/models/variants/type20__1613382993253.png" width="200" height="100">
+            <p class="justify">
+         CRV mulai dari Rp. 2.500.000
+        <ul align="center">
+            <li align="left">5 Orang</li>
+            <li align="left">175Km/H</li>
+        </ul></p></td>
+      </tr>
+      <tr>
+        <td width="500px" align="center"><img src="https://www.toyota.astra.co.id/sites/default/files/2021-11/4-avanza-silver-mica-metallic.png" width="200" heigh="100"</td>
+        <p class="justify">Toyota Avanza Mulai dari Rp. 1.500.000</p>
+        <ul align="center">
+            <li align="left">7 Orang</li>
+            <li align="left">165Km/H</li>
+        </ul>
+      </tr>
+
+   
+    </table>
+  </section>
+  <section style="background-color: rgb(198, 239, 239);" id="pendaftaran" class="pendaftaran">
+    <div class="container">
+        <h2 class="text-center" id="Reservasi"><br>Pendaftaran Mobil</h2>
+        <form action="">
+            <h6>Email Address</h6>
+            <input align="center" type="email" class="email">
+            <h6><br>Nama Lengkap</h6>
+            <input type="text" class="namalengkap">
+            <h6><br>No HP</h6>
+            <input type="number" class="nohp">
+            <h6><br>Alamat</h6>
+            <textarea name="alamat" id="alamat" cols="60" rows="6" class="alamat"></textarea>
+            <h6><br>Jenis Mobil</h6>
+            <select name="mobil" id="mobil">
+                <option value="Select">Select Car</option>
+                <option value="Rush">Rush</option>
+                <option value="CRV">CRV</option>
+                <option value="Avanza">Avanza</option>
+            </select>
+            <h4><br>Butuh Supir?</h4>
+            <div>
+                <input type="radio" name="supir" value="Ya">
+                <label for="supir">Ya</label>
+                <input type="radio" name="supir" value="Tidak">
+                <label for="supir"> Tidak</label>
+            </div>
+            <p><br></p>
+            <button class="btn btn-primary">Pesan</button>
+        </form>
+        <p><br></p>
+    </div>
+</section>
+
+<footer align="center" class="footer" id="footer">
+    <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+        data-bs-target="#exampleModal">
+        @Copyright2022 (M. Agung Rizaldi_1202204359_SI4408)
+    </button>
+</body>
+</html>
