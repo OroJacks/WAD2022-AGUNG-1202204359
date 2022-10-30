@@ -1,0 +1,39 @@
+<<<<<<< HEAD
+h1{
+    color:darkcyan;
+    font-size: 65px;
+}
+
+.oren{
+    color:orange;
+}
+=======
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: black
+}
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding:20px
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+>>>>>>> a83ce51 (Third Commit)
