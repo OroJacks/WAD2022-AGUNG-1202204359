@@ -41,12 +41,12 @@
 
                 <div class="col-12">
                 <label for="date">Book Date</label>
-                <input type="date" id="date" name="date" class="form-control">
+                <input type="date" id="date" name="" class="form-control">
                 </div>
 
                 <div class="col-12">
                 <label for="time">Start Time</label>
-                <input type=time class="form-control" id="time" name="time">
+                <input type=time class="form-control" id="time" name="">
                 </div>
         
                 <div class="col-12">
@@ -66,7 +66,7 @@
         
                   <div class="col-12">
                     <label for="phonenumber" class="form-label"></br>Phone Number</label>
-                    <input type="number" class="form-control" id="phonenumber" name="phonenumber">
+                    <input type="number" class="form-control" id="phonenumber" name="">
                 </div>
       
         
