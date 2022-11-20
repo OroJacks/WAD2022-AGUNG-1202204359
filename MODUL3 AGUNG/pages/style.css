@@ -1,0 +1,14 @@
+.flex-container {
+    display: flex;
+  
+    /*this centers the text horizontally*/
+    justify-content: center;
+  
+    /*this centers the text vertically*/
+    align-items: center;
+  
+    height: 200px;
+    color: #fff;
+    font-size: 1.2rem;
+    background: #00008b;
+  }
